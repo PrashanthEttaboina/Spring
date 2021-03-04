@@ -41,8 +41,8 @@ public class SpringConfig {
 		Properties hp = new Properties();
 		hp.setProperty("hibernate.show_sql", "true");
 		hp.setProperty("hibernate.dialet", "org.hibernate.dialect.MySQL8Dialect");
-		hp.setProperty("hibernate.hbm2ddl.auto", "update");
-		hp.setProperty("hibernate.format_sql", "true");
+		hp.setProperty("hibernate.hbm2ddl.auto", "update");  //by default it is update 
+//		hp.setProperty("hibernate.format_sql", "true");
 		lsfb.setHibernateProperties(hp);
 		return lsfb;
 	}

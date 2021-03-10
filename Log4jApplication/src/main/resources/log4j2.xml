@@ -1,0 +1,47 @@
+
+<Configuration status="info">
+    <Properties>
+        <Property name="layout">%d [%t] %-5level %logger{36} - %m%n</Property>
+    </Properties>
+  
+    <Appenders>
+  
+        <Console name="Console">
+            <PatternLayout pattern="${layout}" />
+        </Console>     
+        
+        <File name="MyFile" fileName="src/main/resources/app.log">
+            <PatternLayout pattern="${layout}" />
+        </File>        
+
+    </Appenders>
+    
+    <Loggers>
+
+        <Logger name="com.motivity" level="info" additivity="false" >
+            <AppenderRef ref="MyFile" />
+        </Logger>
+    
+      <!--   <Root level="error">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="MyFile"/>
+        </Root>     -->
+        
+            <Root level="fatal">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="MyFile"/>
+        </Root>    
+        
+		<!-- <Root level="info">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="MyFile"/>
+        </Root>     -->
+		
+		<!-- <Root level="warn">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="MyFile"/>
+        </Root>     -->
+		
+	
+    </Loggers>
+</Configuration>

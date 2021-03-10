@@ -1,0 +1,10 @@
+2021-03-03 21:32:13,363 [main] ERROR com.motivity.Runner - java.lang.ArithmeticException: / by zero
+2021-03-03 21:35:45,392 [main] INFO  com.motivity.Application - Starting Application using Java 15.0.1 on DESKTOP-18A9ESP with PID 13572 (D:\STS\Log4jApplication\target\classes started by prash in D:\STS\Log4jApplication)
+2021-03-03 21:35:45,429 [main] INFO  com.motivity.Application - No active profile set, falling back to default profiles: default
+2021-03-03 21:35:49,242 [main] INFO  com.motivity.Application - Started Application in 5.868 seconds (JVM running for 12.498)
+2021-03-03 21:35:49,280 [main] INFO  com.motivity.Runner - Information message
+2021-03-03 21:35:49,281 [main] WARN  com.motivity.Runner - Warning message
+2021-03-03 21:35:49,285 [main] ERROR com.motivity.Runner - java.lang.ArithmeticException: / by zero
+2021-03-03 21:38:07,149 [main] ERROR com.motivity.Runner - java.lang.ArithmeticException: / by zero
+2021-03-03 21:39:17,528 [main] ERROR com.motivity.Runner - This is a normal error
+2021-03-03 21:42:29,866 [main] FATAL com.motivity.Runner - this is a fatal error

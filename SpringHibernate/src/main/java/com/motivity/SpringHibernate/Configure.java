@@ -21,7 +21,6 @@ public class Configure {
 		dataSource.setUsername("root");
 		dataSource.setPassword("root");
 		return dataSource;
-
 	}
 	
 @Bean
